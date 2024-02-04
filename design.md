@@ -1,0 +1,1 @@
+How do I determine the approximate scale factors of things that I want to render? I need to avoid the whole issue of low resolution things getting rendered. I think I'll have the transformation stack be part of the actual program itself.
