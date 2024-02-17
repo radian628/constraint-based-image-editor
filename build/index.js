@@ -2007,7 +2007,7 @@
   }
 
   // src/panels/panel.tsx
-  var import_react = __toESM(require_react());
+  var import_react = __toESM(require_react(), 1);
   function PanelSet(props) {
     const [tempOffsets, setTempOffsets] = (0, import_react.useState)({});
     const rootElemRef = (0, import_react.useRef)(null);

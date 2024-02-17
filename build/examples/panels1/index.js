@@ -23508,7 +23508,7 @@
   });
 
   // src/examples/panels1/index.tsx
-  var import_client = __toESM(require_client());
+  var import_client = __toESM(require_client(), 1);
 
   // src/keybinds/keybinds.tsx
   var CurrentKeymap = {
@@ -23607,7 +23607,7 @@
   }
 
   // src/panels/panel.tsx
-  var import_react = __toESM(require_react());
+  var import_react = __toESM(require_react(), 1);
   function PanelSet(props) {
     const [tempOffsets, setTempOffsets] = (0, import_react.useState)({});
     const rootElemRef = (0, import_react.useRef)(null);
@@ -23724,7 +23724,7 @@
   }
 
   // src/examples/panels1/index.tsx
-  var import_react2 = __toESM(require_react());
+  var import_react2 = __toESM(require_react(), 1);
   function NestedPanels() {
     const [subpanels, setSubpanels] = (0, import_react2.useState)([
       [0.25, /* @__PURE__ */ import_react2.default.createElement("div", { className: "subpanel" }, "panel1")],

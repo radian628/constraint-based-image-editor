@@ -20,22 +20,21 @@ export type Group = {
   constituents: Primitive[];
 };
 
-export type Color =
-  | {
-      type: "rgba";
-      color: number;
-    }
-  /*
+export type Color = {
+  type: "rgba";
+  color: number;
+};
+/*
      Color fragment shaders take everything that's already rendered
      as a texture and let you do what you want with it.
     */
-  | {
-      type: "fragment-shader";
-      shader: ShaderLink;
-      textures: {
-        [uniformVarName: string]: string;
-      };
-    };
+// | {
+//     type: "fragment-shader";
+//     shader: ShaderLink;
+//     textures: {
+//       [uniformVarName: string]: string;
+//     };
+//   };
 
 export type Numerical = {
   type: "number";
